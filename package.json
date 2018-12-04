@@ -1,0 +1,22 @@
+{
+  "name": "twit-botv1.0",
+  "version": "1.0.0",
+  "description": "Twitter bot",
+  "main": "app.js",
+  "scripts": {
+    "start":  "node js/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlosdvp/Twit-Botv1.0.git"
+  },
+  "author": "Carlos V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlosdvp/Twit-Botv1.0/issues"
+  },
+  "homepage": "https://github.com/Carlosdvp/Twit-Botv1.0#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
