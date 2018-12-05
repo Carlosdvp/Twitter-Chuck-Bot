@@ -18,8 +18,9 @@ function getData(err, data, response) {
 }
 
 var params = {
-	q: 'inkmaster since:2018-06-15', 
-	count: 3
+	q: '#inkmaster', 
+	count: 3,
+	result-type: 'recent'
 }
 
 // Query Method
