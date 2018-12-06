@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Carlosdvp/Twit-Botv1.0.git"
+    "url": "git+https://github.com/Carlosdvp/Twitter-Chuck-Bot.git"
   },
   "author": "Carlos V",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Carlosdvp/Twit-Botv1.0/issues"
+    "url": "https://github.com/Carlosdvp/Twitter-Chuck-Bot/issues"
   },
-  "homepage": "https://github.com/Carlosdvp/Twit-Botv1.0#readme",
+  "homepage": "https://github.com/Carlosdvp/Twitter-Chuck-Bot#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "twit": "^2.2.11"
