@@ -36,4 +36,7 @@ function getChuckQuote() {
 }
 
 
-getChuckQuote();
+// getChuckQuote();
+
+// automating the tweeting
+setInterval(getChuckQuote, 1000*60*60*12);
