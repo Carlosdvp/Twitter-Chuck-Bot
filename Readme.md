@@ -40,7 +40,23 @@
 5. Turn basic command-line Node app into an express.js app
 
 6. Test it locally - good
+	- heroku local web
 
 7. Use setInterval to automate the tweeting
 
 8. PUsh changes and deploy
+
+9. visit the app at it's heroku url
+	- heroku open
+
+10. and ensure that at least one instance of the app is running
+	- heroku ps:scale web=1
+
+
+*first new tweet should arrive at 9:13am Sat 12/8*
+
+10.1 Let it run for a few days as prrof of concept excercise.
+
+## Next Steps
+
+11. Deploy to AWS

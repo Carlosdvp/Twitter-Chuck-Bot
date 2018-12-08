@@ -11,7 +11,7 @@ const app = express()
 app.use(express.static('public'))
   .listen(PORT, () => console.log(`ChuckBot is listening on port ${PORT}`));
 
-// the Chucck Norris API random qupte generator
+// the Chucck Norris API random quote generator
 const chuckAPI = 'https://api.chucknorris.io/jokes/random';
 
 // creating the Twit object
@@ -19,7 +19,6 @@ var T = new Twit(config);
 
 // Start up message
 console.log('Chuck-bot is online, Human');
-
 
 // using axios to GET the data and post it to Twitter with Twit
 function getChuckQuote() {
@@ -35,8 +34,7 @@ function getChuckQuote() {
   });
 }
 
-
 // getChuckQuote();
 
-// automating the tweeting
+// automating the tweeting, one tweet every 12 hours
 setInterval(getChuckQuote, 1000*60*60*12);
