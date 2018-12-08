@@ -52,7 +52,7 @@
 10. and ensure that at least one instance of the app is running (awaken the sleeping app)
 	- heroku ps:scale web=1
 
-
+11. Linked to Github repo, so puching to github triggers the build and push to the heroku app
 
 
 
@@ -60,6 +60,6 @@
 ## Next Steps
 
 
-11. Find a way to keep th app running indefinietly on it's own
+*  Find a way to keep th app running indefinietly on it's own
 
-Deploy to AWS
+*  Deploy to AWS

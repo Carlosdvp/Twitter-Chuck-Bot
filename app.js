@@ -43,4 +43,4 @@ function getChuckQuote() {
 // getChuckQuote();
 
 // automating the tweeting, one tweet every 12 hours
-setInterval(getChuckQuote, 1000*60);
+setInterval(getChuckQuote, 1000*60*60);
