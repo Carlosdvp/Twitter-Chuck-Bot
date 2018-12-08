@@ -49,14 +49,17 @@
 9. visit the app at it's heroku url
 	- heroku open
 
-10. and ensure that at least one instance of the app is running
+10. and ensure that at least one instance of the app is running (awaken the sleeping app)
 	- heroku ps:scale web=1
 
 
-*first new tweet should arrive at 9:13am Sat 12/8*
 
-10.1 Let it run for a few days as prrof of concept excercise.
+
+
 
 ## Next Steps
 
-11. Deploy to AWS
+
+11. Find a way to keep th app running indefinietly on it's own
+
+Deploy to AWS
