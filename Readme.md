@@ -39,6 +39,8 @@
 
 5. Turn basic command-line Node app into an express.js app
 
-6.
-7.
-8.
+6. Test it locally - good
+
+7. Use setInterval to automate the tweeting
+
+8. PUsh changes and deploy
