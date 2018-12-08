@@ -1,9 +1,15 @@
 
 // Dependencies
-const config = require('./js/config');
+const config = require('./public/js/config');
 const Twit = require('twit');
 const axios = require('axios');
 const PORT = process.env.PORT || 5000
+const express = require('express')
+const app = express()
+
+// a simple express server
+app.use(express.static('public'))
+  .listen(PORT, () => console.log(`ChuckBot is listening on port ${PORT}`));
 
 // the Chucck Norris API random qupte generator
 const chuckAPI = 'https://api.chucknorris.io/jokes/random';
