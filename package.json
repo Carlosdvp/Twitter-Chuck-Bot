@@ -1,10 +1,10 @@
 {
-  "name": "twit-botv1.0",
+  "name": "Twitter-Chuck-Bot",
   "version": "1.0.0",
   "description": "Twitter bot",
   "main": "app.js",
   "scripts": {
-    "start": "node js/app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",

@@ -1,9 +1,9 @@
 
 // Dependencies
+const config = require('./js/config');
 const Twit = require('twit');
-const config = require('./config');
 const axios = require('axios');
-
+const PORT = process.env.PORT || 5000
 
 // the Chucck Norris API random qupte generator
 const chuckAPI = 'https://api.chucknorris.io/jokes/random';
